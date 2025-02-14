@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build && copy dist/assets/widget*.css ../widget.css",
+    "build": "tsc -b && vite build && cp dist/assets/*.css widget.css",
     "lint": "eslint .",
     "preview": "vite preview"
   },
